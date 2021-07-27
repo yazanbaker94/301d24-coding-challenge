@@ -9,7 +9,7 @@ Hint: You can use the array function reverse
 ------------------------------------------------------------------------------------------------ */
 
 const reverseString = (str) => {
-    // Solution code here...
+    return str.split("").reverse().join("");
 
 };
 
@@ -25,8 +25,10 @@ Output: ['a','b','c','d','e','f']
 ------------------------------------------------------------------------------------------------ */
 
 const addInTheMiddle = (arr, val) => {
-    // Solution code here...
-
+    // const length = arr.length / 2
+    console.log(arr.splice(1, 0, 'x'))
+    
+    
 };
 
 /* ------------------------------------------------------------------------------------------------
